@@ -1,0 +1,33 @@
+{
+  "name": "inxnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Jacob Van Meter",
+  "license": "GPLv3",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.2.1",
+    "argon2": "^0.26.2",
+    "passport-jwt": "^4.0.0",
+    "joi": "^14.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "dotenv": "^8.2.0",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "supertest": "^4.0.2",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
